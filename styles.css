@@ -1,8 +1,32 @@
 :root{
-  --primary:#45625E; /*69,98,94*/
+  --primary:#7BFFF4; /*123,255,244*/
   --secondary:#000744; /*0,7,68*/
 }
 body{
   background: var(--primary);
   color: var(--secondary);
+  text-align: center;
+  margin: 5px 10px;
+}
+
+h1, p, ul, li{
+  margin: 0px;
+  padding: 0px;
+}
+
+nav{
+  background: rgba(0,7,68, 0.3);
+  display: flex;
+  box-shadow: 8px 10px 10px rgba(20,7,68, 0.4);
+}
+nav h1{
+  color: black;
+  margin-left: 5px;
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+}
+nav li:hover{
+  background: --primary;
 }
