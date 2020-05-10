@@ -32,7 +32,7 @@ nav ul{
   float: right;
   color:black;
   display:absolute;
-  left:0px;
+  right:0px;
   margin: 10px 15px;
 }
 nav li:hover{
