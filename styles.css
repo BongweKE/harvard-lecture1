@@ -20,7 +20,7 @@ nav{
   box-shadow: 8px 10px 10px rgba(20,7,68, 0.4);
   border-radius: 0px 0px 10px 0px;
   height: 50px;
-  display: relative;
+  position:  relative;
 }
 nav h1{
   color: white;
@@ -31,10 +31,14 @@ nav ul{
   display: flex;
   float: right;
   color:black;
-  display:absolute;
+  position:  absolute;
   right:0px;
-  margin: 10px 15px;
+  margin: 0px 15px;
+  align-self: center;
+}
+nav li{
+  padding:  10px 10px;
 }
 nav li:hover{
-  background: --primary;
+  background: var(--primary);
 }
