@@ -30,6 +30,7 @@ nav ul{
   list-style-type: none;
   display: flex;
   float: right;
+  color:black;
 }
 nav li:hover{
   background: --primary;
