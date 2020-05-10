@@ -20,7 +20,7 @@ nav{
   box-shadow: 8px 10px 10px rgba(20,7,68, 0.4);
   border-radius: 0px 0px 10px 0px;
   height: 50px;
-
+  display: relative;
 }
 nav h1{
   color: white;
@@ -31,6 +31,9 @@ nav ul{
   display: flex;
   float: right;
   color:black;
+  display:absolute;
+  left:0px;
+  margin: 10px 15px;
 }
 nav li:hover{
   background: --primary;
