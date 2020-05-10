@@ -1,0 +1,7 @@
+:root{
+  --primary:#45625E; /*69,98,94*/
+  --secondary:#000744; /*0,7,68*/
+}
+body{
+  background: var(--primary);
+}
